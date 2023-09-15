@@ -1,3 +1,4 @@
+kubectl apply -f replicaSet.yaml
 kubectl get  replicaset
 kubectl scale  replicaset dobby-rs --replicas=5
 kubectl delete  replicaset dobby-rs
