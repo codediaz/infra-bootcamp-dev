@@ -1,0 +1,3 @@
+Dubby App example: https://github.com/thecasualcoder/dobby
+
+kubectl port-forward service/dobbysvc 8080:4444
