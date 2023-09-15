@@ -1,0 +1,4 @@
+kubectl get  replicaset
+kubectl scale  replicaset dobby-rs --replicas=5
+kubectl delete  replicaset dobby-rs
+kubectl get  replicaset
