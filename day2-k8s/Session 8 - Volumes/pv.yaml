@@ -10,5 +10,5 @@ spec:
    - ReadWriteOnce
  persistentVolumeReclaimPolicy: Retain
  hostPath:
-   path: "/Users/larafaela.parra/Desktop/PUCE/infra-bootcamp/day2-k8s/nginx"
+   path: "/home/codediaz/Bootcamp/infra-bootcamp/day2-k8s/nginx" #Replace with u folder
 
