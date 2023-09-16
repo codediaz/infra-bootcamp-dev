@@ -56,7 +56,7 @@ minikube stop
 ### 7. Download/clone sample project repo and run test
 
 ```bash
-git clone https://github.com/boot-services/metadata-service.git (clone repo from github)
+git clone https://github.com/rxvctw/metadata-service.git (clone repo from github)
 cd metadata-service
 mvn clean test (run tests and see everything is working on local, you need Java 8+ and Maven installed)
 brew install openjdk@8 (Install openjdk8)
