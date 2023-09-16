@@ -19,4 +19,4 @@ kubectl rollout history deploy nginx -n bootcamp
 
 kubectl rollout pause deploy nginx -n bootcamp
 kubectl rollout resume deployment/nginx -n bootcamp
-kubectl scale  deployment nginx -n bootcamp --replicas=4
+kubectl scale  deployment nginx -n bootcamp
