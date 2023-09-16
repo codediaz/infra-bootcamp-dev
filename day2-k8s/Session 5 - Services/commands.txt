@@ -1,4 +1,9 @@
 Dubby App example: https://github.com/thecasualcoder/dobby
+
+kubectl apply -f replicaset.yaml
+
+kubectl apply -f service.yaml
+
 minikube service list
 
 
