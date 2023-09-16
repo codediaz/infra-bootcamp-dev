@@ -6,7 +6,7 @@ metadata:
     app: cassandra
 spec:
   serviceName: cassandra
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: cassandra
@@ -98,3 +98,4 @@ metadata:
 provisioner: k8s.io/minikube-hostpath
 parameters:
   type: pd-ssd
+
