@@ -1,0 +1,5 @@
+kubectl apply -f pod-metadata-service.yaml 
+kubectl get pods -w
+kubectl describe po
+kubectl logs -f pod-metadata-service 
+kubectl delete pod pod-metadata-service 
