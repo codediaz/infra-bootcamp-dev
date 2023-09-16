@@ -1,5 +1,17 @@
 kubectl apply -f replicaSet.yaml
-kubectl get  replicaset
-kubectl scale  replicaset dobby-rs --replicas=5
-kubectl delete  replicaset dobby-rs
+
+kubectl get  replicaset -->Tipo 
+
+kubectl scale  replicaset dobby-rs --replicas=5 --> Escalamos pods
+
+kubectl get po --> Identificamos los pods creados
+
+kubectl get po -o wide --> Más detalles
+
+kubectl get po -w --> Watch
+
+kubectl delete po dobby-rs-229sk  --> Elimina un pod en específico
+
+kubectl delete replicaset dobby-rs --> Elimina todo el replicaset
+
 kubectl get  replicaset
