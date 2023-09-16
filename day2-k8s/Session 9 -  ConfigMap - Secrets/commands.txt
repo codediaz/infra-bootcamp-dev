@@ -1,3 +1,10 @@
+kubectl apply -f configmap.yaml 
+kubectl get configmap
+
+kubectl apply -f pod.yaml
+
 kubectl exec <pod-name>  -it -- /bin/sh
+- kubectl exec -it configmap-demo-pod -- /bin/sh
+
 kubectl logs -f <pod-name>
 kubectl describe pod <pod-name>
