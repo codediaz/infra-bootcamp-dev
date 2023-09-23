@@ -1,9 +1,16 @@
 kubectl apply -f cassandra-service.yaml
+
 #servicios
 kubectl get svc cassandra
-Using a StatefulSet to create a Cassandra ring
+
+#Using a StatefulSet to create a Cassandra ring
 kubectl apply -f cassandra-statefulset.yaml
-lista de pod que tiene la etiqueta app=cassandra
+kubectl get StatefulSet
+
+#lista de pod que tiene la etiqueta app=cassandra
+kubectl get pv 
+kubectl get pvc
+
 kubectl get pods -l="app=cassandra"
 kubectl exec -it cassandra-0 -- nodetool status
-kubectl scale statefulset  cassandra  --replicas=4
+kubectl scale statefulset  cassandra  --replicas=2
